@@ -7,7 +7,8 @@
 title: Hakkyun Kim
 # Website URL
 baseURL: 'https://hakkyun.com/'
-
+description: "Biomedical Engineering Pre-Med student"
+ogImage: /Users/hakkyunk/Projects/website-portfolio/CuzImAlive.github.io/content/authors/admin/avatar.jpeg
 ############################
 ## LANGUAGE
 ############################
