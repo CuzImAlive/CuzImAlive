@@ -1,18 +1,12 @@
 <footer style="text-align: center; padding: 1em; font-size: 0.9em;">
-    <script>
-        // Adjust footer background color based on website theme (light or dark)
-        document.addEventListener('DOMContentLoaded', function () {
-            const footer = document.querySelector('footer');
-            const darkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
-            footer.style.backgroundColor = darkMode ? '#1A1A1A' : '#F1F1F1';
-            footer.style.color = darkMode ? '#D3D3D3' : '#333';
-        });
-
-        // Set the year dynamically
-        document.addEventListener('DOMContentLoaded', function () {
-            const yearSpan = document.getElementById('year');
-            yearSpan.textContent = new Date().getFullYear();
-        });
-    </script>
-    <p>© <span id="year"></span> Hakkyun Kim</p>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const footer = document.querySelector('footer');
+      const darkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      footer.style.backgroundColor = darkMode ? '#1A1A1A' : '#F1F1F1';
+      footer.style.color = darkMode ? '#D3D3D3' : '#333';
+    });
+  </script>
+  <p>© 2025 Hakkyun Kim</p>
 </footer>
+
